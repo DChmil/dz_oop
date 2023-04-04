@@ -24,6 +24,12 @@ class Mentor:
             return 'Ошибка'
 
 
+class Lecturer(Mentor):
+
+
+class Reviewer(Mentor):
+
+
 best_student = Student('Ruoy', 'Eman', 'your_gender')
 best_student.courses_in_progress += ['Python']
 
